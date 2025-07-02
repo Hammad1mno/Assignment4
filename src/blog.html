@@ -1,31 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blog | AI Company</title>
-  <link rel="stylesheet" href="../styles/blog.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Insights Blog | TechFuture</title>
+  
+  <link rel="stylesheet" href="../styles/home.css">
+  <link rel="stylesheet" href="../styles/blog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <nav class="main-nav">
-    <ul>
-        <li><a href="../src/home.html">Home</a></li>
-        <li><a href="../src/blog.html">Blog</a></li>
-        <!-- <li><a href="contact.html">Contact</a></li> -->
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Khawaja Pvt Ltd.</div>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="contact.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
     </ul>
   </nav>
 
-  <header>
-    <h1>AI Blog</h1>
-    <p>Explore the latest in Artificial Intelligence</p>
-  </header>
-
-  <section class="posts">
-    <article>
-      <h2>How AI Is Changing the World</h2>
-      <img src="https://source.unsplash.com/800x400/?ai,robot" alt="AI Blog Image">
-      <p>AI is revolutionizing industries with intelligent automation...</p>
-    </article>
+  <!-- Blog Hero -->
+  <section class="blog-hero">
+    <img src="../images/home/ai-bg2.jpg" alt="AI Blog Header">
+    <div class="hero-overlay">
+      <h1>AI Insights Blog</h1>
+      <p>Cutting-edge research and industry perspectives</p>
+    </div>
   </section>
+
+  <!-- Featured Post -->
+  <section class="featured-post">
+    <div class="container">
+      <div class="featured-content">
+        <span class="category-tag">Featured</span>
+        <h2>The Future of Quantum Machine Learning</h2>
+        <p class="meta">By Dr. Elena Rodriguez | June 15, 2023 | 8 min read</p>
+        <p class="excerpt">Exploring how quantum computing is revolutionizing neural network architectures and enabling breakthroughs in drug discovery and materials science.</p>
+        <a href="#" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="featured-image">
+        <img src="../images/home/ai-bg.jpg" alt="Quantum AI">
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Grid -->
+  <section class="blog-grid-section">
+    <div class="container">
+      <h2 class="section-title">Latest Articles</h2>
+      <div class="blog-grid">
+        <!-- Article 1 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="../images/home/ai-bg2.jpg" alt="Neural Networks">
+            <span class="category-tag">Research</span>
+          </div>
+          <div class="blog-content">
+            <h3>Advancements in Spiking Neural Networks</h3>
+            <p class="meta">By Raj Patel | May 28, 2023 | 6 min read</p>
+            <p class="excerpt">How bio-inspired SNNs are enabling more energy-efficient AI systems that mimic biological brain processes.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="../images/home/ai-bg.jpg" alt="AI Ethics">
+            <span class="category-tag">Ethics</span>
+          </div>
+          <div class="blog-content">
+            <h3>Implementing Ethical AI Frameworks</h3>
+            <p class="meta">By Dr. Naomi Chen | May 15, 2023 | 7 min read</p>
+            <p class="excerpt">Practical guidelines for developing AI systems that align with human values and reduce algorithmic bias.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="Edge AI">
+            <span class="category-tag">Technology</span>
+          </div>
+          <div class="blog-content">
+            <h3>Edge AI: Bringing Intelligence to Devices</h3>
+            <p class="meta">By Michael Zhang | April 30, 2023 | 5 min read</p>
+            <p class="excerpt">The growing trend of deploying lightweight ML models directly on IoT devices and its implications.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="../images/home/ai-bg.jpg" alt="Computer Vision">
+            <span class="category-tag">Applications</span>
+          </div>
+          <div class="blog-content">
+            <h3>Computer Vision in Medical Diagnostics</h3>
+            <p class="meta">By Dr. Sarah Johnson | April 18, 2023 | 9 min read</p>
+            <p class="excerpt">How deep learning is transforming radiology and pathology with unprecedented accuracy.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Article 5 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="../images/home/ai-bg2.jpg" alt="Natural Language">
+            <span class="category-tag">NLP</span>
+          </div>
+          <div class="blog-content">
+            <h3>Beyond GPT: Next-Gen Language Models</h3>
+            <p class="meta">By Priya Kumar | April 5, 2023 | 8 min read</p>
+            <p class="excerpt">Emerging architectures that address the limitations of current transformer-based models.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <!-- Article 6 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="AI Governance">
+            <span class="category-tag">Policy</span>
+          </div>
+          <div class="blog-content">
+            <h3>Global AI Regulation Trends in 2023</h3>
+            <p class="meta">By David Wilson | March 22, 2023 | 6 min read</p>
+            <p class="excerpt">Comparative analysis of AI governance approaches across major economies.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Stay Updated on AI Advancements</h2>
+        <p>Subscribe to our monthly research digest featuring the latest breakthroughs, case studies, and technical papers.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3 class="footer-heading">About Us</h3>
+        <p>Leading AI solutions provider since 2015</p>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-heading">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-heading">Contact</h3>
+        <ul class="footer-contact">
+          <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley</li>
+          <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+          <li><i class="fas fa-envelope"></i> info@aicompany.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 AI Company. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>

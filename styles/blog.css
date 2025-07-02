@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  header {
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    padding: 30px;
+  }
+  .posts {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  .posts img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
